@@ -12,7 +12,7 @@ fun main(){
 greeting("James")
 greeting("Victor")
 
-("============================================================================================")
+    println("============================================================================================")
 // Below is an examle used used to calculate the BMI of a person
 fun BMI (weight: Double, height: Double){
     val answer = weight / (height * height)
@@ -21,5 +21,14 @@ fun BMI (weight: Double, height: Double){
 }
 
 BMI(69.5, 1.73)
+BMI(96.9, 1.80)
+
+// create a function that accepts parameters and checks whether a given number is odd or even
+fun check (num1: Int){
+    if(num1 % 2 == 0) print("Even") else print("Odd")
+    println()
+}
+
+check(102003004)
 
 }
